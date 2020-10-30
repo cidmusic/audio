@@ -5,7 +5,7 @@
 */
 
 
-audioPlayer();
+
 function audioPlayer(){
 	var currentSong=0;
 	$("#audioPlayer")[0].src=$("#playlist li a")[0];
@@ -39,6 +39,8 @@ function audioPlayer(){
 		$nav = $('#nav'),
 		$main = $('#main'),
 		$navPanelToggle, $navPanel, $navPanelInner;
+
+	console.log($window);
 
 	// Breakpoints.
 		breakpoints({
@@ -282,3 +284,6 @@ function audioPlayer(){
 		}
 
 })(jQuery);
+
+
+audioPlayer();
