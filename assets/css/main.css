@@ -4709,18 +4709,18 @@ input, select, textarea {
 
 	}
 	#playlist li {
-		padding: 5px;
+		padding: 6px;
 		border-bottom: solid 1px #212931;
 	}
 	#playlist li:last-child {
 		
 		border-bottom: 0;
+		padding: 0;
 	}
 
 	#playlist li div{
-		padding: 0 5px;
-		height: 50px;
-
+		padding: 0 px;
+		height: auto;
 	}
 	#playlist li div a{
 		text-decoration: none;
@@ -4729,16 +4729,21 @@ input, select, textarea {
 		font-size: 110%;
 		font-weight: normal;
 		letter-spacing: 0.5px;
-		line-height: 15px;
+		line-height: 0px;
 	}
 	#playlist li div a:hover{
-		color: inherit;
+		color: blue;
+		border-bottom-color: transparent;
+		color: #18bfef 
 	}
 	#playlist li div p{
 		font-size: 10px;
 		letter-spacing: 0.5px;
 		line-height: 1px;
 		text-align: center;
+		padding-bottom: 5px;
+		margin: 0;
+		word-wrap: break-word;
 	}
 	#playlist .current-song{
 		background-color: #212931;
@@ -4781,4 +4786,13 @@ input, select, textarea {
     	display: block;
     	width: 250px;
     	margin-top: 5px;
+    }
+
+    .services{
+    	font-weight: bold;
+    	font-size: 110%;
+    }
+
+    .underline{
+    	text-decoration: underline;
     }
