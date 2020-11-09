@@ -4791,6 +4791,7 @@ input, select, textarea {
     .services{
     	font-weight: bold;
     	font-size: 110%;
+	list-style-type: none;
     }
 
     .underline{
