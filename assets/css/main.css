@@ -4801,8 +4801,17 @@ input, select, textarea {
     	text-decoration: underline;
     }
 
-
     .posts article iframe{
 		width: 420px; 
 		height: 236px;
     }
+
+	@media screen and (max-width: 980px) {
+
+	    .posts article iframe{
+			width: auto; 
+			height: auto;
+	    }
+	}
+
+
