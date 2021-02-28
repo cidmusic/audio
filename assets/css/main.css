@@ -3877,6 +3877,7 @@ input, select, textarea {
 
 			}
 
+
 				#main > .posts > article > :last-child {
 					margin-bottom: 0;
 				}
@@ -3888,6 +3889,8 @@ input, select, textarea {
 				#main > .posts > article:nth-child(-n + 2) {
 					border-top-width: 0;
 				}
+
+			
 
 			@media screen and (max-width: 980px) {
 
@@ -4796,4 +4799,10 @@ input, select, textarea {
 
     .underline{
     	text-decoration: underline;
+    }
+
+
+    .posts article iframe{
+		width: 420px; 
+		height: 236px;
     }
