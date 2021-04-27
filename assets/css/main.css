@@ -4794,7 +4794,11 @@ input, select, textarea {
     .services{
     	font-weight: bold;
     	font-size: 110%;
-	list-style-type: none;
+		list-style-type: none;
+ 		margin:50;
+ 		padding: 50;
+ 		background-color: red;
+ 		display: inline-block;
     }
 
     .underline{
@@ -4814,4 +4818,33 @@ input, select, textarea {
 	    }
 	}
 
+	.bgimage{
+		position: relative;
+		text-align: center;
+		color: white;
 
+	}
+
+	.service-title{
+		position: absolute;
+		text-transform: capitalize;
+		top: 2rem;
+		left: 2rem;
+		font-weight: bold;
+		font-size: 110%;
+	}
+
+	.service-text{
+		position: absolute;
+		top: 5rem;
+		left: 2rem;
+		right: 1rem;
+		text-align: left;
+		margin: 2px;
+		font-size: 90%;
+		line-height: 1.6;
+	}
+
+	.rounded{
+		border-radius: 25px;
+	}
