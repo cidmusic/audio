@@ -4848,3 +4848,12 @@ input, select, textarea {
 	.rounded{
 		border-radius: 25px;
 	}
+
+	.emphasis{
+		font-size: 130%;
+		border-color: red;
+		background-color: #f5f5f5;
+		background-color: #e2e2e2;
+		margin: 0;
+		padding: 5px;
+	}
